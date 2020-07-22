@@ -21,10 +21,8 @@ NVME-SSD： WD-SN750
 CPU USB 网卡 显卡 声卡 休眠 NVME SATA
 
 已知问题：
-由于在安装镜像及Recovery中无法加载Kext驱动造成以下问题
-1.在BigSur系统安装界面及BigSur Recovery界面无法使用PS2接口键盘，请使用USB键盘鼠标
-2.在BigSur系统安装界面及BigSur Recovery界面使用PM981（a）硬盘可能会造成系统卡死，暂时无解。
-3.待发现...
+1.在BigSur系统安装界面及BigSur Recovery界面使用PM981（a）硬盘安装系统可能会造成系统卡死。
+2.待发现...
 
 使用说明：
 直接将压缩包解压缩后把EFI文件夹压缩至ESP分区即可。注意：请务必修改配置文件中SMBIOS的序列号等信息，不要使用配置中的SMBIOS信息登陆AppleID以免封号！
